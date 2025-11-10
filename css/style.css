@@ -397,6 +397,16 @@ table {
   }
 }
 
+button {
+  background-color: rgb(250, 119, 163);
+  transition: all 0.3s ease;
+}
+
+button:active {
+  background-color: rgb(250, 119, 163);
+  transform: translateY(1px);
+}
+
 @font-face {
   font-family: "Lora";
   src: url("../fonts/");
