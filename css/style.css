@@ -1,1 +1,275 @@
-/*# sourceMappingURL=style.css.map */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main {
+  max-width: 700px;
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.main__top {
+  font-family: "Lora";
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.main__top-title {
+  color: azure;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.main__top-text {
+  color: azure;
+  font-size: 20px;
+  text-indent: 30px;
+}
+.main__mid {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main__mid-title {
+  padding-bottom: 20px;
+  color: azure;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.main__mid-buttons {
+  padding-top: 20px;
+}
+.main__mid-buttons-list {
+  display: flex;
+  gap: 15px;
+  color: azure;
+  text-decoration: none;
+}
+.main__mid-buttons-list-links {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: azure;
+  border: 2px solid;
+  padding: 10px 10px 10px 10px;
+}
+.main__bottom {
+  padding-top: 20px;
+}
+.main__bottom-title {
+  color: azure;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+.main__bottom-in {
+  display: flex;
+  font-family: "Lora";
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.main__bottom-in-number {
+  font-style: "Lora";
+}
+.main__bottom-in-number-input {
+  border: 2px solid azure;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.main__bottom-in-mail {
+  font-style: "Lora";
+}
+.main__bottom-in-mail-input {
+  border: 2px solid azure;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.main__bottom-in-message {
+  font-style: "Lora";
+}
+.main__bottom-in-message-input {
+  border: 2px solid azure;
+  color: black;
+  padding: 10px 10px 10px 20px;
+  width: 525px;
+  height: 50px;
+  font-weight: bold;
+  font-style: "Lora";
+}
+.main__bottom-button {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.main__bottom-button-form {
+  font-size: 15px azure;
+  color: azure;
+  font-weight: bold;
+  border: 2px solid azure;
+  padding: 10px 10px 10px 10px;
+  background-color: rgba(28, 28, 28, 0);
+}
+
+.base {
+  background-image: url(../img/ground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header_greg {
+  padding-top: 80px;
+  padding-left: 80px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.man-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/");
+  src: url("../fonts/Lora-Regular.eot") format("embedded-opentype"), url("../fonts/Lora-Regular.woff") format("woff"), url("../fonts/Lora-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}/*# sourceMappingURL=style.css.map */

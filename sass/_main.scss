@@ -1,0 +1,154 @@
+.main {
+  max-width: 700px;
+  padding-top: 50px;
+  padding-left: 80px;
+
+  &__top {
+    font-family: 'Lora';
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    &-title {
+      color: azure;
+      padding-bottom: 20px;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+
+    &-text {
+      color: azure;
+      font-size: 20px;
+      text-indent: 30px;
+    }
+  }
+
+
+
+
+  &__mid {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    &-title {
+      padding-bottom: 20px;
+      color: azure;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 3px;
+
+    }
+
+    &-buttons {
+      padding-top: 20px;
+
+      &-list {
+        display: flex;
+        gap: 15px;
+        color: azure;
+        text-decoration: none;
+
+        &-links {
+          font-size: 15px;
+          font-weight: bold;
+          text-decoration: none;
+          color: azure;
+          border: 2px solid;
+          padding: 10px 10px 10px 10px;
+        }
+      }
+    }
+  }
+
+
+
+
+  &__bottom {
+
+    padding-top: 20px;
+
+    &-title {
+      color: azure;
+      padding-bottom: 20px;
+      font-weight: bold;
+      font-size: 30px;
+      letter-spacing: 3px;
+    }
+
+    &-in {
+      display: flex;
+      font-family: 'Lora';
+      gap: 10px;
+      flex-wrap: wrap;
+
+      &-number {
+        font-style: 'Lora';
+
+        &-input {
+          border: 2px solid azure;
+          color: black;
+          padding: 10px 10px 10px 10px;
+          width: 250px;
+          height: 30px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      &-mail {
+
+        font-style: 'Lora';
+
+        &-input {
+          border: 2px solid azure;
+          color: black;
+          padding: 10px 10px 10px 10px;
+          width: 250px;
+          height: 30px;
+          font-weight: bold;
+          text-align: center;
+        }
+      }
+
+      &-message {
+
+        font-style: 'Lora';
+
+        &-input {
+          border: 2px solid azure;
+          color: black;
+          padding: 10px 10px 10px 20px;
+          width: 525px;
+          height: 50px;
+          font-weight: bold;
+          font-style: 'Lora';
+        }
+      }
+
+    }
+
+    &-button {
+      padding-top: 10px;
+      padding-bottom: 20px;
+
+      &-form {
+        font-size: 15px azure;
+        color: azure;
+        font-weight: bold;
+        border: 2px solid azure;
+        padding: 10px 10px 10px 10px;
+        background-color: rgba(28, 28, 28, 0);
+      }
+    }
+  }
+
+
+
+
+
+
+
+}
